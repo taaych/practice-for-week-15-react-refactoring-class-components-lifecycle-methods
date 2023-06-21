@@ -5,7 +5,7 @@ function FunctionComponent({ title }) {
 
   useEffect(() => {
     setTimeout(() => {
-      setCount(5);
+      setCount(15);
     }, 5000);
     return () => console.log('cleanup');
   }, []);
