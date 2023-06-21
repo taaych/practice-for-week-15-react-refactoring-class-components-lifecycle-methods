@@ -12,9 +12,10 @@ class ClassComponent extends React.Component {
 
   componentDidMount() {
     setTimeout(() => {
-      this.setState({ count: 5 });
+      this.setState({ count: 25 });
     }, 3000);
   }
+
 
   componentDidUpdate(prevProps, prevState) {
     if (prevState.count !== this.state.count) {
